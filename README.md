@@ -1,4 +1,3 @@
-````markdown
 # Terraform AWS Kubernetes Cluster Setup
 
 This repository contains Terraform code to provision a self-managed Kubernetes cluster on AWS using EC2 Spot Instances. The infrastructure includes VPC, subnets, security groups, IAM roles, and EC2 worker nodes to run Kubernetes.
@@ -22,7 +21,7 @@ Before running Terraform, make sure you have the following tools installed and c
 
    ```bash
    aws configure
-````
+   
 
 2. **Terraform**: [Install Terraform](https://www.terraform.io/downloads.html)
 
