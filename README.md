@@ -37,7 +37,7 @@ Before running Terraform, make sure you have the following tools installed and c
 
 ```bash
 git clone https://github.com/tmor32/kube-infra.git
-cd k8s-terraform-aws
+cd kube-infra
 ```
 
 ### 2. Initialize Terraform
