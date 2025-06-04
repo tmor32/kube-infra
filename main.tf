@@ -123,7 +123,7 @@ resource "aws_launch_template" "k8s_spot_template" {
   image_id      = data.aws_ami.amazon_linux_2.id
   instance_type = "t3a.micro"
 
-  key_name = key_name = var.key_name
+  key_name = var.key_name
 
   iam_instance_profile {
     name = aws_iam_instance_profile.k8s_worker_profile.name
